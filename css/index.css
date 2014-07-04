@@ -20,3 +20,23 @@ nav a{
 nav a:hover{
   color: rgb(34, 105, 255);
 }
+
+.login label{
+  display: block;
+}
+
+.submit{
+  background-color: green;
+  display: block;
+  margin-top: 15px;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.submit:hover{
+  color:gold;
+}
