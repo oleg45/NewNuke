@@ -1,0 +1,22 @@
+body{
+  background-color: #000000;
+  color: white;
+  font-family: 'Cantarell', sans-serif;
+}
+
+.container {
+  margin-left: 125px;
+  margin-right: 125px;
+  width: 900px;
+}
+
+nav a{
+  color: rgb(245, 255, 0);
+  font-size: 35px;
+  padding: 20px;
+  text-decoration: none;
+}
+
+nav a:hover{
+  color: rgb(34, 105, 255);
+}
