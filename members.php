@@ -1,6 +1,9 @@
-<?php 
+<?php
   require_once("models/Member.php");
   require_once("helpers/members_helper.php");
+  require_once("helpers/application_helper.php");
+
+  $currentUser = currentUser();
   $members = Member::getAllMembers();
 ?>
 
